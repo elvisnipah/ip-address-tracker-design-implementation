@@ -28,7 +28,7 @@ function Header() {
         backgroundSize: "cover",
       }}
     >
-      <h1 className="text-2xl text-center p-4 font-bold lg:pt-12">
+      <h1 className="text-2xl text-center p-4 font-medium lg:pt-12">
         IP Address Tracker
       </h1>
     </div>
