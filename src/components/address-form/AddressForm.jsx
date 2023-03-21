@@ -17,7 +17,7 @@ function AddressInput({ getIPData }) {
     <form className="flex" onSubmit={handleSubmit}>
       <input
         type="text"
-        className="rounded-l-2xl p-3 outline-none"
+        className="rounded-l-2xl p-3 outline-none w-full lg:w-96"
         value={ipValue}
         onChange={handleChange}
       />
