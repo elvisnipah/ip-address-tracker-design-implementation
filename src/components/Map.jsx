@@ -1,7 +1,9 @@
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css";
+
 import { useEffect, useState } from "react";
+
 import markerImage from "../assets/icon-location.svg";
 
 function Map({ addressData }) {
@@ -9,6 +11,7 @@ function Map({ addressData }) {
     latitude: 0,
     longitude: 0,
   });
+
   const [isLoading, setIsLoading] = useState(true);
 
   const getNewCoordinates = async () => {

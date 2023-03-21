@@ -1,7 +1,6 @@
 import React from "react";
 
 function AddressDisplay({ data }) {
-  // console.log(data);
   return (
     <section className="flex flex-col bg-white w-full items-center p-4 lg:p-0 rounded-2xl gap-4 z-50 lg:flex-row lg:justify-evenly lg:py-4">
       <div className="flex flex-col items-center lg:items-start lg:p-4">

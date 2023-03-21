@@ -1,8 +1,8 @@
 import submitButton from "../../assets/icon-arrow.svg";
 import { useState } from "react";
 
-function AddressInput({ getIPData }) {
-  const [ipValue, setIpValue] = useState("");
+function AddressForm({ getIPData, addressData }) {
+  const [ipValue, setIpValue] = useState(addressData.ip);
 
   const handleChange = (event) => {
     setIpValue(event.target.value);
@@ -21,6 +21,7 @@ function AddressInput({ getIPData }) {
         value={ipValue}
         onChange={handleChange}
       />
+
       <button className="bg-black hover:bg-gray-700 p-3 rounded-r-2xl w-12">
         <img src={submitButton} alt="" className="mx-auto" />
       </button>
@@ -28,4 +29,4 @@ function AddressInput({ getIPData }) {
   );
 }
 
-export default AddressInput;
+export default AddressForm;
