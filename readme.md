@@ -8,5 +8,5 @@ Built with React, Vite, TailwindCSS, React-Leaflet, LeafletJS.
 
 # APIs used
 
-[Radar](https://radar.com/)
+[Radar](https://radar.com/) <br>
 [IP Geolocation](https://geo.ipify.org/)
