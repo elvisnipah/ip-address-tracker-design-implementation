@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <div
-      className="text-white pb-60"
+      className="text-white pb-40"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundRepeat: "no-repeat",
